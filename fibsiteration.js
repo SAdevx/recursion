@@ -7,7 +7,7 @@ function fibs(num){
     if(num >= 1)  arr.push(1);
 
     for(let i = 2; i < num; i++){
-        let sum = arr[i - 1] + arr[i - 2]
+        let sum = arr[i-1] + arr[i-2];
         arr.push(sum);
     }
     return arr;
